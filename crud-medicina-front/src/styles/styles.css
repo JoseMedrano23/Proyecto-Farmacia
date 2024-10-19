@@ -1,0 +1,72 @@
+.container-general {
+  display: flex;
+  height: 100vh;
+}
+
+.menu-lateral {
+  width: 20%;
+  background-color: #007bff; /* Color azul para el borde */
+  color: white;
+  padding: 20px;
+}
+
+.contenedor-titulo-y-principal {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo-pagina {
+  text-align: center;
+  font-size: 48px;
+  color: #1ecd97; /* Color similar al de la imagen */
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.contenedor-principal {
+  display: flex;
+  justify-content: space-between; /* Esto asegura que los elementos estén separados */
+  padding: 20px;
+  background-color: #f8f9fa; /* Color gris claro para el fondo */
+}
+
+.titulo-seccion {
+  font-size: 28px;
+  color: #b0e000; /* Color amarillo verdoso como en la imagen */
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.formulario {
+  width: 45%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.lista-proveedores {
+  width: 45%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  width: 100%;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 8px;
+}
+
+.acciones button {
+  margin-right: 5px;
+}
